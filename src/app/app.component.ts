@@ -54,12 +54,9 @@ import { Component } from '@angular/core';
         </div>
       </article>
     </main>
-  </div> `,
-  styleUrls: ['./app.component.css'],
+  </div> `
 })
 export class AppComponent {
-  title = 'solid-principles';
-
   download() {
     alert('download...');
   }
