@@ -46,7 +46,7 @@ import { Component } from '@angular/core';
           <div class="sm:flex sm:items-end sm:justify-end">
             <a
               (click)="download()"
-              class="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+              class="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400 cursor-pointer"
             >
               Download
             </a>
